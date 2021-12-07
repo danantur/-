@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.cords {
+    width: 640px;
+    height: 640px;
+    position: absolute;
+    top:0;
+    left:0;
+}
+
+#canvas {
+    position: absolute;
+     top:0;
+    left:0;
+    z-index: 10;
+}
+
+#constants {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 150px;
+    height: fit-content;
+    padding: 10px;
+    z-index: 100;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+#constants input {
+    margin: 2px;
+    width: 80%;
+}
