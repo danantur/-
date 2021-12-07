@@ -1,7 +1,7 @@
 let example = document.getElementById("canvas"),
 			    ctx     = example.getContext('2d');
 
-ctx.strokeStyle = "#666"
+ctx.strokeStyle = "#960200"
 
 let a = document.getElementById("a"),
     b = document.getElementById("b"),
